@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Prajapati | Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff; /* White background */
+            color: #333;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px auto;
+            display: block;
+            border: 3px solid #007bff;
+            animation: bounce 2s infinite;
+        }
+        .socials a {
+            margin: 0 10px;
+            font-size: 18px;
+            transition: transform 0.3s;
+        }
+        .socials a:hover {
+            transform: scale(1.2);
+        }
+
+        /* About Section */
+        .about {
+            text-align: center;
+            margin: 50px 0;
+            animation: slideIn 2s ease-in-out;
+        }
+
+        /* Education, Skills, Project, Contact Sections */
+        section {
+            margin: 50px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            animation: fadeInUp 2s ease-in-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Avatar with your image -->
+            <img src="image.jpg" alt="Avatar" class="avatar">
+            <h1>Hi, I'm Ganesh Prajapati</h1>
+            <p>Computer Science Student | Python & HTML Developer</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/abhisek-prajapat-541b67328" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/_abhisek_06" target="_blank">Instagram</a>
+            </div>
+        </header>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>I am an enthusiastic Computer Science Engineering student currently pursuing my B.Tech from Shivaji Rao Kadam College. I have knowledge of Python and HTML, and I love building creative projects. Currently, I am in 1st year and have already worked on a project titled 'Hotel Menu'.</p>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Pursuing B.Tech in Shivaji Rao Kadam College</li>
+                               <li>Year: 1st</li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h2>Skills & Tools</h2>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>VS Code</li>
+                <li>GitHub</li>
+            </ul>
+        </section>
+        <section class="project">
+            <h2>Project</h2>
+            <p>Hotel Menu</p>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: ganeshprajapat67849@gmail.com</p>
+            <p>Phone: 9826364992</p>
+        </section>
+    </div>
+</body>
+</html>
